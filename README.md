@@ -1,7 +1,7 @@
 # ppa-helper
 A helper program for adding ppa's in ubuntu.
 
-A program writen in python to make adding ppa's easier on Ubuntu distros.
+A program writen in python to make adding/updating ppa source's easier on Ubuntu distros.
 The program will try using your distro for the given ppa's and fallback to the latest version before your distro if not available.
 
 Usage:
