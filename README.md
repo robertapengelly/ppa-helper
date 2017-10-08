@@ -9,10 +9,18 @@ Usage:
 * Open terminal (Ctrl + Alt + T)
 ```bash
 * sudo apt-get install git
-* On Ubuntu 17.10-beta2 neither make nor python are not intalled so run sudo apt-get install make python
+* On Ubuntu 17.10-beta2 neither make nor python are not intalled by default so run:
+    sudo apt-get install make python
 * git clone https://github.com/robertapengelly/ppa-helper.git
 * cd ppa-helper
 * make install
-* example: ppa-helper ppa:notepadqq-team/notepadqq ppa:otto-kesselgulasch/gimp \
-           gnome3-team/gnome3-staging gnome3-team/gnome3
+
+* Adding sources:
+    ppa-helper --add "ppa:notepadqq-team/notepadqq ppa:otto-kesselgulasch/gimp"
+
+* Updating sources:
+    ppa-helper --update "ppa:notepadqq-team/notepadqq ppa:otto-kesselgulasch/gimp"
+  
+  Alternativly you can run ppa-helper --update to update all existing sources within the
+  sources.list.d directory.
 ```
