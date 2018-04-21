@@ -9,7 +9,7 @@ Usage:
 * Open terminal (Ctrl + Alt + T)
 ```bash
 * sudo apt-get install git
-* In newer versions of make and/or older versions of python may not be intalled by default so run:
+* In newer versions make and/or older versions of python may not be intalled by default so run:
     sudo apt-get install make python
 * git clone https://github.com/robertapengelly/ppa-helper.git
 * cd ppa-helper
